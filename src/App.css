@@ -94,3 +94,8 @@ table {
 
   cursor: pointer;
 }
+
+
+table {
+  width: fit-content;
+}
