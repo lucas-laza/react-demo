@@ -36,3 +36,61 @@
     transform: rotate(360deg);
   }
 }
+
+.orange {
+  color: orange !important;
+}
+
+.warning {
+  background-color: orange;
+  color: white;
+  padding: 20px;
+}
+
+table {
+  margin: auto;
+}
+
+.nameCards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.personCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  background-color: aliceblue;
+  /* width: fit-content; */
+  padding: 25px;
+  /* min-width: 200px; */
+  flex: 33;
+  margin: 15px 0;
+  position: relative;
+}
+.personCard img {
+  height: 100px;
+}
+.personCard a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  background-color: rgb(255, 63, 63);
+  border-radius: 5px;
+}
+
+.fem {
+  background-color: rgb(255, 231, 255);
+}
+
+.close {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+
+  cursor: pointer;
+}
